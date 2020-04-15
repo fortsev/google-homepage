@@ -35,6 +35,10 @@ nav ul a:last-child {
     margin-right: 0;
 }
 
+.container {
+    margin-left: 162px;
+}
+
 .top_menu {
     width: 100%;
     display: flex;
@@ -53,8 +57,16 @@ nav ul a:last-child {
     align-items: center;
 }
 
-.logo img {
+.logo {
+    background: url(../img/logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 500px;
+    height: 150px;
+}
+
+.logo img {
+    width: 100%;
 }
 
 .input_block {
@@ -206,4 +218,112 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/*Search*/
+.s_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    height: 80px;
+}
+
+.s_top_left_block {
+    display: flex;
+    align-items: center;
+}
+
+.s_header .logo {
+    width: 92px;
+    height: 30px;
+    margin-right: 40px;
+}
+
+.search_menu {
+    border-bottom:1px solid #ebebeb;
+}
+
+.search_menu .container {
+    display: flex;
+}
+
+.search_menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search_menu ul a {
+    font-size: 13px;
+    padding: 10px;
+    color: #5f6368;
+}
+
+.search_menu ul a.active {
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+}
+
+
+.search_menu ul li {
+    display: flex;
+}
+
+.search_menu ul li svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.content.s_cont {
+    align-items: baseline;
+}
+
+.nubmer_result {
+    display: flex;
+    height: 43px;
+    align-items: center;
+}
+
+.result_item {
+    max-width: 580px;
+    margin: 20px 0;
+}
+
+
+.result_item_link a {
+    font-size: 14px;
+    color: #3C4043;
+}
+
+.result_item_title {
+    margin: 10px 0;
+}
+
+.result_item_title a {
+    color: #1a0dab;
+    font-size: 20px;
+}
+
+.result_item_desc {
+    font-size: 14px;
+    color: #3C4043;
+}
+
+/*.page_nav_f_item span{
+    background: url(../img/nav_logo.webp) no-repeat;
+    background-position: -24px 0;
+    width: 28px;
+}
+
+page_nav_item span {
+    background: url(../img/nav_logo.webp) no-repeat;
+    background-position: -53px 0;
+    width: 20px;
+}*/
+
+footer.search_footer {
+    position: relative;
 }

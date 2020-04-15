@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>MyGoogleSearchPage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="s_header">
+        <div class="s_top_left_block">
+            <div class="logo">
+
+            </div>
+            <div class="input_block">
+                <div class="search_logo">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                </div>
+                <div class="search_input">
+                    <input type="text">
+                </div>
+                <div class="search_key">
+                    <span class="key_logo"></span>
+                </div>
+                <div class="search_voice">
+                    <span class="voice_logo"></span>
+                </div>
+            </div>
+        </div>
+        <div class="top_menu">
+            <nav>
+                <ul>
+                    <a href="#"><li>Почта</li></a>
+                    <a href="#"><li>Картинка</li></a>
+                    <a href="#"><li><img src="img/v-logo.png" alt="v-logo" class="top_menu_logo"></li></a>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="search_menu">
+        <div class="container">
+            <ul>
+                <a href="#" class="active"><li>
+                    <svg focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8z" fill="#34A853"></path><path d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6z" fill="#EA4335"></path><path d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6z" fill="#FBBC04"></path><path d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59z" fill="#4285F4"></path></svg>
+                    Все
+                </li></a>
+                <a href="#"><li>
+                    <svg focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2z"></path></svg>
+                    Новости
+                </li></a>
+                <a href="#"><li>
+                    <svg focusable="false" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M7.50302273,-6.81818182e-05 C10.5930227,-6.81818182e-05 13.0052955,2.48720455 13.0052955,5.42720455 C13.0052955,7.76379545 11.8748409,9.12061364 10.7443864,10.4774318 C10.2909773,11.0051591 9.83893182,11.6078864 9.38688636,12.2112955 C8.93484091,12.8140227 8.63347727,13.7187955 8.40711364,14.1708409 C8.18143182,14.6228864 8.03006818,14.9999318 7.50302273,14.9999318 C6.97461364,14.9999318 6.82461364,14.6228864 6.59825,14.1708409 C6.37188636,13.7187955 6.07052273,12.8140227 5.61847727,12.2112955 C5.16575,11.6078864 4.71370455,11.0051591 4.26165909,10.4774318 C3.13120455,9.12061364 2.00006818,7.76379545 2.00006818,5.42720455 C2.00006818,2.48720455 4.41165909,-6.81818182e-05 7.50302273,-6.81818182e-05 Z M7.50302273,1.36356818 C5.22029545,1.36356818 3.36370455,3.18606818 3.36370455,5.42720455 C3.36370455,7.27015909 4.22211364,8.29970455 5.30893182,9.60402273 C5.77734091,10.1508409 6.25120455,10.7822045 6.70938636,11.3931136 C7.04893182,11.8458409 7.30461364,12.3831136 7.50302273,12.8378864 C7.70075,12.3831136 7.95643182,11.8458409 8.29597727,11.3931136 C8.75484091,10.7822045 9.22734091,10.1508409 9.70870455,9.58970455 C10.7825682,8.29970455 11.6416591,7.27015909 11.6416591,5.42720455 C11.6416591,3.18606818 9.78438636,1.36356818 7.50302273,1.36356818 Z M7.50275,4.09793182 C8.23638636,4.09793182 8.83161364,4.69315909 8.83161364,5.42679545 C8.83161364,6.16111364 8.23638636,6.75634091 7.50275,6.75634091 C6.76843182,6.75634091 6.17320455,6.16111364 6.17320455,5.42679545 C6.17320455,4.69315909 6.76843182,4.09793182 7.50275,4.09793182 Z"></path></svg>
+                    Карты
+                </li></a>
+                <a href="#"><li>
+                    <svg focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5z" fill-rule="evenodd"></path></svg>
+                    Видео
+                </li></a>
+                <a href="#"><li>
+                    <svg focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14 13l4 5H6l4-4 1.79 1.78L14 13zm-6.01-2.99A2 2 0 0 0 8 6a2 2 0 0 0-.01 4.01zM22 5v14a3 3 0 0 1-3 2.99H5c-1.64 0-3-1.36-3-3V5c0-1.64 1.36-3 3-3h14c1.65 0 3 1.36 3 3zm-2.01 0a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h7v-.01h7a1 1 0 0 0 1-1V5z"></path></svg>
+                    Картинки
+                </li></a>
+                <a href="#"><li>
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
+                    Еще
+                </li></a>
+            </ul>
+            <ul>
+                <a href="#"><li><span></span>Настройки</li></a>
+                <a href="#"><li><span></span>Инструменты</li></a>
+            </ul>
+        </div>
+</header>
+<div class="content s_cont container">
+    <div class="nubmer_result">
+        Результатов: примерно 117 000 000 (0,42 сек.)
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <div class="result_item">
+        <div class="result_item_link">
+            <a href="#">google.com</a>
+        </div>
+        <div class="result_item_title">
+            <a href="#">Google</a>
+        </div>
+        <div class="result_item_desc">
+            Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking...
+        </div>
+    </div>
+    <!--<div class="search_page_nav">
+        <ul>
+            <li class="page_nav_f_item"><span></span></li>
+            <li class="page_nav_item"><span style="background: url('../img/nav_logo.webp') no-repeat;background-position: -24px 0;width: 28px;"></span></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+            <li class="page_nav_item"></li>
+        </ul>
+    </div>-->
+</div>
+<footer class="search_footer">
+    <div class="location">
+        <span>Россия</span>
+    </div>
+    <div class="work_link">
+        <div class="work_link_left">
+            <ul>
+                <a href="#"><li>Реклама</li></a>
+                <a href="#"><li>Для бизнеса</li></a>
+                <a href="#"><li>Все о Google</li></a>
+                <a href="#"><li>Как работает Google Поиск</li></a>
+            </ul>
+        </div>
+        <div class="work_link_right">
+            <ul>
+                <a href="#"><li>Конфиденциальность</li></a>
+                <a href="#"><li>Условия</li></a>
+                <a href="#"><li>Настройки</li></a>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
